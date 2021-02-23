@@ -1,0 +1,7 @@
+version: '3'
+services:
+  redmine:
+      image: 'becamexidc2020/redmine:4.3'
+      build:
+        context: .
+        dockerfile: Dockerfile-agile
